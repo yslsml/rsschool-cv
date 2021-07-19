@@ -1,0 +1,134 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.01em;
+  font-weight: normal;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: auto;
+}
+p {
+  margin: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 45px 0 0 0; 
+}
+.intro__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro__image {
+  padding-top: 10px;
+}
+.avatar-image {
+  width: 300px;
+}
+.intro__content {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 375px;
+}
+.intro__name {
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 6.5rem;
+  line-height: 8.4rem;
+}
+.intro__vacancy {
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 4.2rem;
+  line-height: 5.6rem;
+}
+.intro__location {
+  font-size: 2.4rem;
+  line-height: 4.2rem;
+}
+.intro__contacts-list {
+  margin: 0;
+  list-style-type: none;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
+}
+.main-info__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-info__skills{
+  margin-top: -120px;
+}
+.main-info__skill-title{
+  font-size: 2rem;
+  line-height: 0.1rem;
+  font-weight: 500;
+  padding-top: 18px;
+}
+.main-info__skills-list, .english__text {
+  font-size: 2rem;
+  line-height: 3.3rem;
+}
+.main-info__title{
+  font-size: 2.4rem;
+  line-height: 4.2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.main-info__text, .main-info__education-list {
+  max-width: 735px;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  text-align: justify;
+}
+.code-text{
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  margin: 0;
+}
+.education__text {
+  font-style: italic;
+}
+.vertical-line {
+  border-left: 1px solid #000;
+  height: 750px;
+  margin-top: 0px;
+}
+.footer {
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+.footer__wrapper {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.footer__text {
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  padding: 0px 5px;
+}
+.footer__logo{
+  display: block;
+  background-image: url(./img/rs_school_js.svg);
+  width: 86px;
+  height: 32px;
+  cursor: pointer;
+}
