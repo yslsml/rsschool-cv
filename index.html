@@ -16,6 +16,7 @@
   <body>
     <header>
       <section class="intro">
+        <h5 class="hidden"></h5>
         <div class="wrapper intro__wrapper">
           <div class="intro__image">
             <img
@@ -46,6 +47,7 @@
     </header>
       <main>
       <section class="main-info">
+        <h5 class="hidden"></h5>
         <div class="wrapper main-info__wrapper">
           <article class="main-info__skills">
             <h3 class="main-info__title">Skills</h3>
@@ -73,6 +75,7 @@
           </article>
           <div class="vertical-line"></div>
           <section class="main-info__content">
+            <h5 class="hidden"></h5>
             <article class="main-info__about-myself">
               <h3 class="main-info__title">About myself</h3>
               <p class="main-info__text">
@@ -96,30 +99,28 @@
             </article>
             <article class="main-info__code">
               <h3 class="main-info__title">Code example</h3>
-              <p class="main-info__text">
-                <pre class="code-text">
-                  <code>
-                  //JS
-                  function inter(s1, s2) {
-                    let intersection = new Set();
-                    for (let elem of s2) {
-                        if (s1.has(elem)) {
-                            intersection.add(elem);
-                        }
-                    }
-                    return intersection;
+              <pre class="code-text">
+                <code>
+                //JS
+                function inter(s1, s2) {
+                  let intersection = new Set();
+                  for (let elem of s2) {
+                      if (s1.has(elem)) {
+                          intersection.add(elem);
+                      }
                   }
-                  </code>
-                </pre>
-              </p>
+                  return intersection;
+                }
+                </code>
+              </pre>
             </article>
             <article class="main-info__education">
               <h3 class="main-info__title">Education</h3>
               <ul class="main-info__education-list">
                 <li>Finished Gymnasium №35 in 2020</li>
-                <p class="education__text">Class with profound studing of Mathematics and English language</p>
+                <li class="education__text">Class with profound studing of Mathematics and English language</li>
                 <li>Student of the Mechanics and Mathematics faculty of Belarusian State University (2020-2024)</li>
-                <p class="education__text">Speciality: Mathematics and Information Technologies (Mobile   Devices Software)</p>
+                <li class="education__text">Speciality: Mathematics and Information Technologies (Mobile   Devices Software)</li>
               </ul>
             </article>
           </section>
