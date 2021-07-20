@@ -104,6 +104,7 @@ a:hover {
 }
 .education__text {
   font-style: italic;
+  list-style-type: none;
 }
 .vertical-line {
   border-left: 1px solid #000;
